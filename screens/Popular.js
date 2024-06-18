@@ -5,13 +5,13 @@ import BL from '../assets/blogo.png'
 import BBL from '../assets/burgerlogo.png'
 
 const data = [
-    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: BBL, salary: '200/yr'},
-    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: BL, salary: '200/yr'},
-    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '200/yr'},
-    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '200/yr'},
-    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '200/yr'},
-    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '200/yr'},
-    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '200/yr'},
+    {name: 'Jr Executive', company: 'Fabe', location: 'Kasoa, Accra', image: BBL, salary: '200/yr'},
+    {name: 'Product Manager', company: 'Fabe', location: 'Kasoa, Accra', image: BL, salary: '250/yr'},
+    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '300/yr'},
+    {name: 'Web Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '350/yr'},
+    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '400/yr'},
+    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '450/yr'},
+    {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '500/yr'},
     {name: 'Software Developer', company: 'Fabe', location: 'Kasoa, Accra', image: FB, salary: '200/yr'},
 ]
 

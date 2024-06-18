@@ -7,8 +7,8 @@ import Fb from '../assets/fblogo.png'
 import Popular from './Popular'
 
 const FeaturedData = [
-  {id: 1, title: 'Software Developer', company: 'Facebook', salary: '200', backgroundColor: '#34A853', image: Fb, location: 'Accra, Ghana'},
-  {id: 2, title: 'Software Developer', company: 'Facebook', salary: '200', backgroundColor: 'blue', image: Fb, location: 'Accra, Ghana'},
+  {id: 1, title: 'Software Developer', company: 'Facebook', salary: '200', backgroundColor: '#ADD8E6', image: Fb, location: 'Accra, Ghana'},
+  {id: 2, title: 'Software Developer', company: 'Facebook', salary: '250', backgroundColor: '#040273', image: Fb, location: 'Accra, Ghana'},
   {id: 3, title: 'Software Developer', company: 'Facebook', salary: '200', backgroundColor: 'red', image: Fb, location: 'Accra, Ghana'},
   {id: 4, title: 'Software Developer', company: 'Facebook', salary: '200', backgroundColor: 'red', image: Fb, location: 'Accra, Ghana'},
   {id: 5, title: 'Software Developer', company: 'Facebook', salary: '200', backgroundColor: 'red', image: Fb, location: 'Accra, Ghana'},
@@ -75,8 +75,8 @@ const Home = () => {
               showsHorizontalScrollIndicator={false}
             />
             <View style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginHorizontal: 20, marginTop: 60}}>
-              <Text>Popular Jobs</Text>
-              <Text style={{color: 'gray',}}>See all</Text>
+              <Text style={{fontSize: 30, fontWeight: 'bold'}}>Popular Jobs</Text>
+              <Text style={{color: 'gray',fontSize:20}}>See all</Text>
             </View>
             <View>
               <Popular/>
